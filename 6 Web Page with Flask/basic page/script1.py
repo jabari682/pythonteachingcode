@@ -12,7 +12,7 @@ def home():
     
     return render_template("home.html",myName="")
 
-@app.route('/about/')
+@app.route('/usr/bin/python/about/')
 def about():
     return render_template("about.html")
 
